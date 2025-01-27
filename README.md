@@ -2,9 +2,9 @@
 
 Simple single header dotenv library in C 
 
-# Build Example
+# Build Example / Tests
 
-Just compile the build.c using
+Just compile the build.c or tests.c using
 
 ```command
  cc build.c -o build

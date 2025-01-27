@@ -26,6 +26,10 @@ static void cotenv_failed_to_open_file(const char *filename) {
   fprintf(stderr, "Failed to open %s file", filename);
 }
 
+static void cotenv_failed_to_create_file(const char *filename) {
+  fprintf(stderr, "Failed to create temporary %s file" , filename);
+}
+
 static void cotenv_failed_env_var(const char *key) {
   fprintf(stderr, "Failed to set %s variable", key);
 }
