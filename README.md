@@ -19,10 +19,8 @@ Just compile the build.c or tests.c using
 #include "cotenv.h"
 
 int main(int argc, char **argv) {
-	if(load_cotenv(".env") != 0 {
-		return EXIT_FAILURE
-	}
-	
+	load_cotenv(".env");
+
 	const char *world = getenv("WORLD");
 	if (world) {
 		printf("Hello %s", world);
