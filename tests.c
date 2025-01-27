@@ -38,7 +38,7 @@ void run_tests() {
 
   test(hello_world, "HelloWorld");
   test(meaning_of_life, "42");
-  test(name_of_girlfriend, "\n");
+  test(name_of_girlfriend,"");
 
   remove(test_file);
 }
